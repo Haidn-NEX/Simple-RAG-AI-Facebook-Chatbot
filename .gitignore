@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+*.log
+
+# Dữ liệu khách và bản build cục bộ
+bot/data/
+bot/logs/
+dist/
+
+# Ảnh chụp màn hình gốc (có thể chứa token)
+screenshots/

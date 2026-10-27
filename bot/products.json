@@ -1,0 +1,82 @@
+[
+  {
+    "id": "SP001",
+    "name": "Thức ăn hạt Royal Canin cho chó nhỏ",
+    "category": "thức ăn chó",
+    "price": 285000,
+    "unit": "túi 800g",
+    "description": "Thức ăn hạt cao cấp dành cho chó giống nhỏ dưới 10kg. Công thức giàu protein, hỗ trợ tiêu hóa và lông bóng mượt.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/1200px-YellowLabradorLooking_new.jpg",
+    "stock": true
+  },
+  {
+    "id": "SP002",
+    "name": "Thức ăn hạt Royal Canin cho mèo trưởng thành",
+    "category": "thức ăn mèo",
+    "price": 320000,
+    "unit": "túi 2kg",
+    "description": "Thức ăn hạt dành cho mèo từ 1 đến 7 tuổi. Giúp kiểm soát cân nặng, bổ sung taurine tốt cho tim và mắt.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/1200px-Cat_November_2010-1a.jpg",
+    "stock": true
+  },
+  {
+    "id": "SP003",
+    "name": "Pate Whiskas vị cá ngừ cho mèo",
+    "category": "thức ăn mèo",
+    "price": 18000,
+    "unit": "hộp 85g",
+    "description": "Pate ướt thơm ngon, nhiều nước giúp mèo uống đủ lượng nước trong ngày. Không chất bảo quản.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/1200px-Cat_November_2010-1a.jpg",
+    "stock": true
+  },
+  {
+    "id": "SP004",
+    "name": "Vòng cổ có khóa an toàn cho chó",
+    "category": "phụ kiện chó",
+    "price": 75000,
+    "unit": "cái",
+    "description": "Vòng cổ nylon bền, có khóa an toàn tự nhả khi bị kẹt. Phù hợp chó cỡ nhỏ và vừa. Màu sắc ngẫu nhiên.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/1200px-YellowLabradorLooking_new.jpg",
+    "stock": true
+  },
+  {
+    "id": "SP005",
+    "name": "Cát vệ sinh cho mèo hương lavender",
+    "category": "vệ sinh mèo",
+    "price": 95000,
+    "unit": "túi 5kg",
+    "description": "Cát bentonite vón cục nhanh, khử mùi tốt nhờ hương lavender tự nhiên. Ít bụi, an toàn cho mèo.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/1200px-Cat_November_2010-1a.jpg",
+    "stock": true
+  },
+  {
+    "id": "SP006",
+    "name": "Dây dắt chó có tay cầm ergonomic",
+    "category": "phụ kiện chó",
+    "price": 120000,
+    "unit": "cái",
+    "description": "Dây dắt nylon 1.5m, tay cầm đệm mút êm tay. Khóa móc inox chắc chắn. Phù hợp mọi cỡ chó.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/1200px-YellowLabradorLooking_new.jpg",
+    "stock": true
+  },
+  {
+    "id": "SP007",
+    "name": "Đồ chơi cần câu lông vũ cho mèo",
+    "category": "đồ chơi mèo",
+    "price": 45000,
+    "unit": "cái",
+    "description": "Cần câu lông vũ kích thích bản năng săn mồi của mèo. Giúp mèo vận động, giảm stress. Lông vũ thay được.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/1200px-Cat_November_2010-1a.jpg",
+    "stock": true
+  },
+  {
+    "id": "SP008",
+    "name": "Sữa tắm cho chó hương dừa",
+    "category": "chăm sóc chó",
+    "price": 85000,
+    "unit": "chai 300ml",
+    "description": "Sữa tắm pH cân bằng cho da chó, hương dừa nhẹ nhàng. Làm sạch sâu, không làm khô da. Dùng được cho chó từ 2 tháng tuổi.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/1200px-YellowLabradorLooking_new.jpg",
+    "stock": true
+  }
+]

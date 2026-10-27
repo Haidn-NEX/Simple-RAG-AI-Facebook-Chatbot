@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Deletion – Your Shop</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f9fa; color: #333; line-height: 1.7; }
+    header { background: #1a1a2e; color: #fff; padding: 24px 0; text-align: center; }
+    header h1 { font-size: 1.6rem; }
+    header p { font-size: 0.9rem; opacity: 0.75; margin-top: 4px; }
+    nav { background: #16213e; display: flex; justify-content: center; gap: 24px; padding: 10px; }
+    nav a { color: #e0e0e0; text-decoration: none; font-size: 0.9rem; }
+    nav a:hover { color: #f0a500; }
+    .lang-switch { text-align: right; padding: 12px 40px; }
+    .lang-switch a { font-size: 0.85rem; color: #1a73e8; cursor: pointer; text-decoration: underline; margin-left: 12px; }
+    .container { max-width: 800px; margin: 32px auto; padding: 0 24px 64px; }
+    .section { background: #fff; border-radius: 8px; padding: 32px; margin-bottom: 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+    .method { background: #f0f7ff; border-left: 4px solid #1a73e8; border-radius: 4px; padding: 20px 24px; margin: 20px 0; }
+    .method h3 { color: #1a1a2e; margin-bottom: 8px; }
+    .badge { display: inline-block; background: #f0a500; color: #fff; font-size: 0.75rem; font-weight: bold; padding: 2px 8px; border-radius: 12px; margin-right: 8px; }
+    h2 { font-size: 1.25rem; color: #1a1a2e; margin-bottom: 16px; border-bottom: 2px solid #f0a500; padding-bottom: 8px; }
+    p, li { font-size: 0.95rem; margin-bottom: 10px; }
+    ul { padding-left: 20px; }
+    .updated { font-size: 0.82rem; color: #888; margin-bottom: 20px; }
+    .lang-block { display: none; }
+    .lang-block.active { display: block; }
+    footer { text-align: center; padding: 24px; font-size: 0.82rem; color: #888; }
+    code { background: #eee; padding: 2px 6px; border-radius: 3px; font-family: monospace; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🐾 Your Shop</h1>
+  <p>Data Deletion Instructions</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+  <a href="data-deletion.html">Data Deletion</a>
+</nav>
+
+<div class="lang-switch">
+  <a onclick="setLang('vi')">🇻🇳 Tiếng Việt</a>
+  <a onclick="setLang('en')">🇬🇧 English</a>
+</div>
+
+<div class="container">
+
+  <!-- ====== VIETNAMESE ====== -->
+  <div id="lang-vi" class="lang-block active">
+    <div class="section">
+      <p class="updated">Cập nhật lần cuối: 18 tháng 9 năm 2026</p>
+      <h2>Yêu cầu xóa dữ liệu</h2>
+      <p>Bạn có quyền yêu cầu xóa toàn bộ dữ liệu mà chatbot <strong>Your Shop</strong> đã thu thập từ bạn. Chọn một trong hai cách bên dưới.</p>
+
+      <div class="method">
+        <h3><span class="badge">Cách 1</span> Yêu cầu trực tiếp qua Messenger</h3>
+        <p>Mở cuộc trò chuyện với <strong>Your Shop</strong> trên Messenger và gõ:</p>
+        <p><code>xóa dữ liệu</code></p>
+        <p>Bot sẽ xác nhận đã xóa ngay trong cuộc trò chuyện.</p>
+      </div>
+
+      <div class="method">
+        <h3><span class="badge">Cách 2</span> Gửi email yêu cầu</h3>
+        <p>Gửi email đến <strong>contact@example.com</strong> với:</p>
+        <ul>
+          <li>Tiêu đề: <code>Yêu cầu xóa dữ liệu</code></li>
+          <li>Nội dung: tên Facebook và nội dung yêu cầu xóa.</li>
+        </ul>
+        <p>Chúng tôi sẽ xử lý trong vòng <strong>30 ngày</strong> và gửi email xác nhận.</p>
+      </div>
+
+      <h3>Dữ liệu sẽ bị xóa bao gồm</h3>
+      <ul>
+        <li>PSID (mã định danh Messenger) của bạn</li>
+        <li>Lịch sử hội thoại với bot</li>
+        <li>Thông tin đơn hàng (tên, số điện thoại, địa chỉ)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ====== ENGLISH ====== -->
+  <div id="lang-en" class="lang-block">
+    <div class="section">
+      <p class="updated">Last updated: September 18, 2026</p>
+      <h2>Data Deletion Instructions</h2>
+      <p>You have the right to request deletion of all data collected by the <strong>Your Shop</strong> chatbot. Choose one of the two methods below.</p>
+
+      <div class="method">
+        <h3><span class="badge">Method 1</span> Request directly via Messenger</h3>
+        <p>Open your conversation with <strong>Your Shop</strong> on Messenger and type:</p>
+        <p><code>xóa dữ liệu</code> &nbsp;or&nbsp; <code>delete my data</code></p>
+        <p>The bot will confirm deletion immediately in the conversation.</p>
+      </div>
+
+      <div class="method">
+        <h3><span class="badge">Method 2</span> Send an email request</h3>
+        <p>Send an email to <strong>contact@example.com</strong> with:</p>
+        <ul>
+          <li>Subject: <code>Data Deletion Request</code></li>
+          <li>Body: your Facebook name and a description of what you want deleted.</li>
+        </ul>
+        <p>We will process your request within <strong>30 days</strong> and send a confirmation email.</p>
+      </div>
+
+      <h3>Data that will be deleted includes</h3>
+      <ul>
+        <li>Your PSID (Messenger identifier)</li>
+        <li>Conversation history with the bot</li>
+        <li>Order information (name, phone number, address)</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<footer>© 2026 Your Shop · contact@example.com</footer>
+
+<script>
+  function setLang(lang) {
+    document.getElementById('lang-vi').classList.toggle('active', lang === 'vi');
+    document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+  }
+  if (navigator.language && navigator.language.startsWith('en')) setLang('en');
+</script>
+</body>
+</html>
